@@ -1,0 +1,114 @@
+body{
+    background: url(../img/fondoweb.png);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+ody{
+  margin-top:20px;
+  background:#eee;
+}
+.gradient-brand-color {
+  background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+  color: #fff;
+}
+.contact-info__wrapper {
+  overflow: hidden;
+  border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+  .contact-info__wrapper {
+      border-radius: 0 .625rem .625rem 0;
+      padding: 5rem !important
+  }
+}
+.contact-info__list span.position-absolute {
+  left: 0
+}
+.z-index-101 {
+  z-index: 101;
+}
+.list-style--none {
+  list-style: none;
+}
+.contact__wrapper {
+  background-color: #fff;
+  border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+  .contact__wrapper {
+      border-radius: .625rem 0 .625rem .625rem
+  }
+}
+@media (min-width: 1024px) {
+  .contact-form__wrapper {
+      padding: 5rem !important
+  }
+}
+.shadow-lg, .shadow-lg--on-hover:hover {
+  box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+}
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+  .containerr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .left {
+    width: 300px;
+    height: 800px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .center {
+    width: 1230px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .right {
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .panel_btn_atras{
+    display: flex;
+  }
+
+  @media screen and (max-width: 1600px) {
+    .left {
+      display: none;
+    }
+    .right {
+      display: none;
+    } 
+     .containerr {
+      justify-content: center;
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* Estilos para pantallas mayores a 500px */
+  @media screen and (min-width: 501px) {
+
+  }
