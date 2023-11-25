@@ -8,7 +8,7 @@ include("templates/header.php");
       <div class="center">
           <div class="card">
             <div class="card-body">
-              <h1>TUTORIAS ONLINE</h1>
+              <h1>TUTORIAS ONLINE ROGRAMACION 3</h1>
             </div>
           </div>    
           <br>
